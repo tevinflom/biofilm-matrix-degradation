@@ -4,7 +4,7 @@ import numpy as np
 
 ## load in images ## 
 
-path = 'C:/Users/tflom/OneDrive/Desktop/dispersiondetection/computer-vision-matrix-degradation/dispersionstainingT1_for_masking'
+path = 'C:/Users/tflom/OneDrive/Desktop/matrixdegradation/T2_rawimages'
 files = os.listdir(path)
 for file in files: 
     file_path = os.path.join(path, file) 
